@@ -7,7 +7,9 @@ html{
 }
 .heading{
     padding:1%;
+    padding-bottom: 2%;
     background-color: #06D2F0;
+    font-size: 1.2em;
 }
 .nav-element{
     padding: 0px 60px;
@@ -16,6 +18,25 @@ footer{
     text-align: center;
     background-color: #C6E0ED;
 }
-.model{
-    padding-top: 100%;
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
+.model{
+    padding: 3.5%;
+    text-align: center;
+    background-color:#EEF0F9;
+}
+.forms{
+    text-align: center;
+}
+#button{
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+@media only screen and (max-width: 600px) {
+    textarea{
+        width:100%;
+    }
+  }
