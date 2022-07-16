@@ -39,4 +39,8 @@ textarea {
     textarea{
         width:100%;
     }
+    #button{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
   }

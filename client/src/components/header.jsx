@@ -15,7 +15,7 @@ function Header(){
         <a className="nav-link" href="#footer">contact us</a>
       </li>
       <li className="nav-item ">
-        <a className="nav-link" href="#">about </a>
+        <a className="nav-link" href="https://github.com/average-joe25/med-simplify">about </a>
       </li>
     </ul>
   </div>

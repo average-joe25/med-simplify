@@ -13,17 +13,21 @@ function Footer(){
           <a className="li-ic" href="https://www.linkedin.com/in/abhishek-kumar-singh-718679214/">
             <i className="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
-          <a className="li-ic" href="https://www.linkedin.com/in/abhishek-kumar-singh-718679214/">
+          <a className="li-ic" href="https://github.com/average-joe25">
             <i className="fab fa-brands fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a className="li-ic" href="https://www.linkedin.com/in/abhishek-kumar-singh-718679214/">
+           <i className="fab fa-brands fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          <a className="li-ic" href="mailto:abishekkrsingh369@gmail.com">
+           <i className="fab fa-brands fa-google fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
           </a>
         </div>
       </div>
 
     </div>
-
   </div>
-  <div className="footer-copyright text-center py-3">© {getyear()} Copyright:
-    <a href="/"> Med-simplify.com</a>
+  <div className="footer-copyright text-center py-3"><p>©  {getyear()} Copyrighted By Abhishek Kumar Singh</p>
   </div>
 </footer>
 </section>);
