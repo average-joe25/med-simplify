@@ -27,7 +27,7 @@ function Footer(){
 
     </div>
   </div>
-  <div className="footer-copyright text-center py-3"><p>©  {getyear()} Copyrighted By Abhishek Kumar Singh</p>
+  <div className="footer-copyright text-center py-1"><p>©  {getyear()} Copyrighted By Abhishek Kumar Singh</p>
   </div>
 </footer>
 </section>);
