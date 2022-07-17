@@ -15,7 +15,7 @@ app.get('/', function (req, res) {
 
 app.post('/data',function(req,res){
   console.log(req.body.data);
-  res.send({value:"new data"});
+  res.send({value: req.body.data});
 });
 
 app.listen(process.env.PORT||9000,function(){
