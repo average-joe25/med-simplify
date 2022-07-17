@@ -4,7 +4,7 @@
   "description": "An react app that turn medical abstract more readable by classifying it into Background, Objective, method, results, conclusion",
   "main": "index.js",
   "scripts": {
-    "start": "cd /client && npm run build && node server.js ",
+    "start": "cd client/ && npm run build && node server.js ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
