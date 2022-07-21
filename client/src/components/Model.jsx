@@ -16,9 +16,9 @@ function Model(){
     return (<section className="model" > 
         <div className="container">
             <div className="row">
-                <div className="col-sm-12 col-md-5 col-lg-5 forms"><Form id="userInputData" placeholder="Enter the Medical Absract HERE....." text={orgdata} edit={edit}/></div>
-                <div className="col-sm-12 col-md-2 col-lg-2  forms"><Submit getdata={getdata}/></div>
-                <div className="col-sm-12 col-md-5 col-lg-5 forms"><Form id="serverOutputData" text={newdata} edit={update}/></div>
+                <div className="col-12 col-md-5 col-lg-5 forms"><Form id="userInputData" placeholder="Enter the Medical Absract HERE....." text={orgdata} edit={edit}/></div>
+                <div className="col-12 col-md-2 col-lg-2  forms"><Submit getdata={getdata}/></div>
+                <div className="col-12 col-md-5 col-lg-5 forms"><Form id="serverOutputData" text={newdata} edit={update}/></div>
             </div>
         </div>
     </section>);
