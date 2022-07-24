@@ -3,7 +3,7 @@
 It uses a Custom Built API that accepts a json containing the abstract and returns the formatted abstract.</p>
 <h4>Deployment Link - https://med-simplify.herokuapp.com/</h4>
 <h4>link of API - https://github.com/average-joe25/pubmed-api</h4>
-<h4>link of Modelling - https://github.com/average-joe25/scientific-abstract-classifier</h4>
+<h4>link of Modelling - https://github.com/average-joe25/scientific-abstract-classifier (Based on Tensorflow2.x custom built)</h4>
 <h4>Tech Stack: Html/Css, Bootsrap, React, Nodejs, Expressjs</h4>
 <h2>Example Use:</h2>
 
