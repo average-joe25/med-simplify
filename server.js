@@ -20,7 +20,7 @@ app.get('/', function (req, res) {
 app.post('/data',function(req,res){
     const inputdata=req.body.data;
     var clientServerOptions = {
-          uri: 'http://127.0.0.1:8000/',
+          uri: 'https://pubmed-api-test.herokuapp.com/',
           body: JSON.stringify({'data':inputdata}),
           method: 'GET',
           headers: {
