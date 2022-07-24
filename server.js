@@ -14,6 +14,19 @@ app.use(express.json());
 
 
 app.get('/', function (req, res) {
+  var clientServerOptions = {
+    uri: 'https://pubmed-api-test.herokuapp.com/',
+    body: JSON.stringify({'data': ""}),
+    method: 'GET',
+    headers: {
+        'Content-Type': 'application/json'
+    }
+  }
+  request(clientServerOptions, function (error, response) {
+    if(error){
+        console.log(error);
+    }
+  }); 
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
